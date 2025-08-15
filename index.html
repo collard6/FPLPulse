@@ -83,10 +83,16 @@
     
     <div class="league-code">League Code: 0q3uyg</div>
     
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-      <input type="email" name="email" placeholder="Enter your email" required />
-      <button type="submit">Join the Waitlist</button>
+    <form action="https://your-form-endpoint" method="POST">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="teamName">FPL Team Name:</label>
+      <input type="text" id="teamName" name="teamName" required>
+    
+      <button type="submit">Join the League</button>
     </form>
+
     
     <div class="fineprint">
       No spam — just launch updates and early access invites.
